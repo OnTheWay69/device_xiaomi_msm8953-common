@@ -1,3 +1,7 @@
 typeattribute qti_init_shell data_between_core_and_vendor_violators;
 
 allow qti_init_shell bluetooth_data_file:file r_file_perms;
+
+# Kcal
+allow qti_init_shell kcal_dev:dir search;
+allow qti_init_shell kcal_dev:file rw_file_perms;
