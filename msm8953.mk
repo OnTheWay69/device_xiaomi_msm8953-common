@@ -137,6 +137,9 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libtinyxml
 
+# Dolby
+$(call inherit-product, vendor/dolby/ds/dolby-product.mk)
+
 # DPM
 PRODUCT_PACKAGES += \
     libcutils_shim
