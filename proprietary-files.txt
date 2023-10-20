@@ -491,6 +491,16 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql
 vendor/radio/qcril_database/qcril.db
 
+# Protobuf - from redfin - TQ3A.230901.001/10750268
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so|4f4ad5b013daabbbfbf7be7419fb60c28a59c36c
+
+# QMI (diag) - from LA.UM.9.6.3.r1-04400-89xx.0
+system_ext/lib64/libdiag_system.so|c50a093e89c9a33277e6f6a2687a6cd74571b9b8
+system_ext/lib64/vendor.qti.diaghal@1.0.so|92bdaafe948648d9cc4200001d40cf3faf132b4c
+vendor/bin/irsc_util|121deb2d6fd21b122c6a8ca8b30ef167f6b90f61
+vendor/lib/libdiag.so|de6da6f0de0867e03f5c5463089ee6eeb82ff6a9
+vendor/lib64/libdiag.so|35818f0fe8086752bd7292fb6be83dfa90d5de55
+
 # Radio - IMS
 product/app/imssettings/imssettings.apk:system_ext/app/imssettings/imssettings.apk
 product/app/uceShimService/uceShimService.apk:system_ext/app/uceShimService/uceShimService.apk
