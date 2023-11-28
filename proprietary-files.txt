@@ -464,8 +464,6 @@ product/app/embms/embms.apk:system_ext/app/embms/embms.apk
 product/etc/permissions/embms.xml:system_ext/etc/permissions/embms.xml
 product/etc/permissions/qcrilhook.xml:system_ext/etc/permissions/qcrilhook.xml
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml:system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
-product/etc/permissions/telephonyservice.xml:system_ext/etc/permissions/telephonyservice.xml
-product/framework/QtiTelephonyServicelibrary.jar:system_ext/framework/QtiTelephonyServicelibrary.jar
 product/framework/embmslibrary.jar:system_ext/framework/embmslibrary.jar
 product/framework/qcrilhook.jar:system_ext/framework/qcrilhook.jar
 product/framework/qti-telephony-common.jar:system_ext/framework/qti-telephony-common.jar
